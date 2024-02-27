@@ -17,8 +17,8 @@ export class Ng2LocationServices extends BaseLocationServices {
   //   return this._locationStrategy.path(true).replace(this._locationStrategy.getBaseHref().replace(/\/$/, ''), '');
   // }
 
-  _set(state: any, title: string, url: string, replace: boolean): any {
-    const { path, search, hash } = parseUrl(url);
+  // _set(state: any, title: string, url: string, replace: boolean): any {
+  //   const { path, search, hash } = parseUrl(url);
 
     const hashWithPrefix = hash ? '#' + hash : '';
     let urlPath = path;
